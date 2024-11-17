@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet"  href="../styles/register.css">
+</head>
+<body>
+    <div id="register-container">
+        <h1 class="text-center fw-bolder">Register</h1>
+        <form class="reg-form">
+          <div class="mb-2">
+            <label for="name" class="form-label text-secondary" >Name</label>
+            <input type="text" id="name"  class="form-control" placeholder="Enter Your Name">
+          </div>
+          <div class="mb-2">
+            <label for="email" class="form-label text-secondary">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter Your Email">
+          </div>
+          <div class="mb-2">
+            <label for="password" class="form-label text-secondary">Passsword</label>
+            <input type="password" id="password" class="form-control" placeholder="Enter Your Passsword">
+          </div>
+          <div class="mb-2">
+            <label for="password" class="form-label text-secondary">ConfirmPassword</label>
+            <input type="password" id="password" class="form-control" placeholder="Confirm Your Passsword">
+          </div>
+          <div class="mb-2">
+            <label for="role" class="text-secondary" >Role</label>
+            <select class="form-control" id="role">
+                <option selected>Select Role</option>
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+            </select>
+          </div>
+          <div class="mb-2">
+            <label for="status" class="text-secondary" >Status</label>
+            <select class="form-control" id="status">
+                <option selected>Select Status</option>
+                <option value="Active">Active</option>
+                <option value="InActive">InActive</option>
+            </select>
+          </div>
+          <div class="d-grid gap-2  col-3 pt-4 mx-auto">
+            <button type="submit" class="btn btn-outline-info  text-center">Submit</button>
+
+          </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#register-container{
+  width: 100%;
+
+}
+.reg-form{
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 40%;
+    background-image: url('https://www.loginradius.com/blog/static/3d1a7f9993b6334444b52ae84a06f852/d3746/user-mngmnt.jpg');
+    background-size: 100%;
+    padding: 30px;
+}
